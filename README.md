@@ -14,20 +14,20 @@ Before you begin, you'll need to have the following software installed on your s
 ### Setup
 
 1.  Clone this repository to your local machine.
-2.  Navigate to the project's root directory in a terminal or command prompt.
-3.  Install the required Python packages by running `pip install -r requirements.txt`.
-4.  Create a new database by running `python manage.py migrate`.
-5.  (Optional) Create a superuser account by running `python manage.py createsuperuser`.
-6.  Navigate to the `frontend` directory and run `npm install`.
-7.  Run `ng serve` to start the Angular development server.
+2.  Navigate to the Back-End Branch for the Django App.
+3.  Navigate to the project's root directory in a terminal or command prompt.
+4.  Install the required Python packages by running `pip install -r requirements.txt`.
+5.  Create a new database by running `python manage.py migrate`.
+6.  (Optional) Create a superuser account by running `python manage.py createsuperuser`.
+7.  Navigate to the `frontend` directory and run `npm install`.
+8.  Run `ng serve` to start the Angular development server.
 
 ### Usage
 
 To use the application, follow these steps:
 
 1.  Start the Django development server by running `python manage.py runserver`.
-2.  Navigate to the Back-End Branch for the Django App
-3.  Open your web browser and navigate to `http://localhost:8000/`.
+2.  Open your web browser and navigate to `http://localhost:4200/`.
 4.  Create a new account or log in with an existing one.
 5.  Create a new exam by clicking the "Create Exam" button.
 6.  Add questions and answer options to the exam.
