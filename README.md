@@ -26,13 +26,14 @@ Before you begin, you'll need to have the following software installed on your s
 To use the application, follow these steps:
 
 1.  Start the Django development server by running `python manage.py runserver`.
-2.  Open your web browser and navigate to `http://localhost:8000/`.
-3.  Create a new account or log in with an existing one.
-4.  Create a new exam by clicking the "Create Exam" button.
-5.  Add questions and answer options to the exam.
-6.  Publish the exam.
-7.  Take the exam by clicking the "Take Exam" button.
-8.  Submit your answers and receive your score.
+2.  Navigate to the Back-End Branch for the Django App
+3.  Open your web browser and navigate to `http://localhost:8000/`.
+4.  Create a new account or log in with an existing one.
+5.  Create a new exam by clicking the "Create Exam" button.
+6.  Add questions and answer options to the exam.
+7.  Publish the exam.
+8.  Take the exam by clicking the "Take Exam" button.
+9.  Submit your answers and receive your score.
 
 ### Features
 
