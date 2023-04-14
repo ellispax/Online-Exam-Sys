@@ -1,0 +1,12 @@
+Create the following in Django Rest
+1. Create User and SuperUser views
+2. Additional model that consists of more information regarding the user who has been registered.
+    The model should contain the following:
+    national id ( unique, 12 characters in this format 'xx-xxxxxxyxx' where x is a number between 0-9 and y is a letter A-Z)
+    Full Name 
+    address
+    Phone number 
+    email 
+    gender 
+
+3. Whenever a general user is created the Userdetails model table should be populated with dummy data that can be updated once the user has logged in for the first time.
