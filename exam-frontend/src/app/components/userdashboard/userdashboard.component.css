@@ -1,3 +1,6 @@
+.fill-remaining-space {
+  flex: 1 1 auto;
+}
 mat-toolbar {
     background: #004a9f;
     color: white;

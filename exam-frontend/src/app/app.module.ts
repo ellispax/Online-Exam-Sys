@@ -20,6 +20,8 @@ import { UserdashboardComponent } from './components/userdashboard/userdashboard
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { AdmindashboardComponent } from './components/admindashboard/admindashboard.component';
 import { MatOptionModule, MatOptionSelectionChange } from '@angular/material/core';
+import { HomeComponent } from './components/home/home.component';
+import { HttpClientModule } from '@angular/common/http';
 
 @NgModule({
   declarations: [
@@ -28,7 +30,8 @@ import { MatOptionModule, MatOptionSelectionChange } from '@angular/material/cor
     RegisterComponent,
     NavbarComponent,
     UserdashboardComponent,
-    AdmindashboardComponent
+    AdmindashboardComponent,
+    HomeComponent
   ],
   imports: [
     BrowserModule,
@@ -46,6 +49,7 @@ import { MatOptionModule, MatOptionSelectionChange } from '@angular/material/cor
     MatCheckboxModule,
     MatOptionModule,
     MatSelectModule,
+    HttpClientModule,
    
   ],
   providers: [],

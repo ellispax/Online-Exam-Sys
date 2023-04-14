@@ -8,6 +8,19 @@
       <mat-icon *ngIf="sidenav.opened"> close </mat-icon>
     </button>
     Responsive side navigation
+    <span>
+      <button mat-button routerLink="/">VID</button>  
+      <button mat-button routerLink="/home" *ngIf="isLoggedIn"><mat-icon>home</mat-icon></button>  
+    </span>  
+    <span class="fill-remaining-space"></span>
+    <span>
+      <button mat-button routerLink="/login" *ngIf="!isLoggedIn">  
+        <mat-icon>power_settings_new</mat-icon>Login  
+      </button>  
+      <button mat-button *ngIf="isLoggedIn" (click)="logout()">  
+        <mat-icon>exit_to_app</mat-icon>Logout  
+      </button>  
+    </span>  
   </mat-toolbar>
   
   <mat-sidenav-container>

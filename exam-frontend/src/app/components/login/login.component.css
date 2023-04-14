@@ -2,6 +2,89 @@
   display: flex;
   justify-content: center;
   align-items: center;
+  height: 100vh;
+}
+
+.card {
+  width: 400px;
+  border: none;
+  border-radius: 20px;
+  box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.1);
+}
+
+.card-body {
+  padding: 40px;
+}
+
+.card-title {
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+.form-group {
+  margin-bottom: 20px;
+}
+
+label {
+  font-weight: bold;
+  display: block;
+  margin-bottom: 5px;
+}
+
+input {
+  border: none;
+  border-radius: 10px;
+  padding: 10px 20px;
+  box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.1);
+  width: 100%;
+  font-size: 16px;
+}
+
+button {
+  border: none;
+  border-radius: 10px;
+  padding: 10px 20px;
+  box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.1);
+  width: 100%;
+  font-size: 16px;
+  font-weight: bold;
+  background-color: #007bff;
+  color: white;
+  margin-top: 20px;
+}
+
+button:hover {
+  background-color: #0069d9;
+  cursor: pointer;
+}
+
+.forgot-password {
+  text-align: center;
+  margin-top: 20px;
+}
+
+.forgot-password a {
+  color: #007bff;
+  text-decoration: none;
+}
+
+.signup {
+  text-align: center;
+  margin-top: 20px;
+}
+
+.signup a {
+  color: #007bff;
+  text-decoration: none;
+}
+
+
+
+/* .container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
   height: 500px;
 }
 mat-card-title{
@@ -41,4 +124,4 @@ button {
 a {
   color: #007aff;
   text-decoration: none;
-}
+} */

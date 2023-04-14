@@ -7,18 +7,31 @@ import { Router } from '@angular/router';
   templateUrl: './navbar.component.html',
   styleUrls: ['./navbar.component.css']
 })
-export class NavbarComponent {
-  isLoggedIn: boolean = false;
 
-  constructor(private authService: AuthService, private router: Router) {
-    this.authService.loggedIn.subscribe((loggedIn: boolean) => {
-      this.isLoggedIn = loggedIn;
-    });
-  }
+  export class NavbarComponent {
+    isLoggedIn: boolean = false;
 
-  logout() {
-    this.authService.logout();
-    this.router.navigate(['/login']);
-  }
-
+    constructor(private authService: AuthService, private router: Router) {
+      this.authService.loggedIn.subscribe((loggedIn: boolean) => {
+        this.isLoggedIn = loggedIn;
+      });
+    }
+  
+    logout() {
+      this.authService.logout();
+      this.router.navigate(['/login']);
+    }
+    // isLoggedIn: boolean = false;
+  
+    // constructor(private authService: AuthService, private router: Router) {
+    //   this.authService.isLoggedIn().subscribe((loggedIn: boolean) => {
+    //     this.isLoggedIn = loggedIn;
+    //   });
+    // }
+  
+    // logout() {
+    //   this.authService.logout();
+    //   this.router.navigate(['/login']);
+    // }
+  
 }
