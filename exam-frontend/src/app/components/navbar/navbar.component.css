@@ -1,0 +1,42 @@
+.fill-remaining-space {
+  flex: 1 1 auto;
+}
+
+.mat-toolbar {
+  background: #004a9f;
+  color: white;
+  height: 65px;
+}
+
+.navbar {
+    background-color: #1DA1F2;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem;
+    margin-bottom: 1px;
+  }
+  
+  .navbar-brand img {
+    height: 2rem;
+  }
+  
+  .navbar-menu {
+    display: flex;
+    align-items: center;
+  }
+  
+  .navbar-end {
+    display: flex;
+  }
+  
+  .navbar-item {
+    color: white;
+    padding: 0.5rem;
+  }
+  
+  .navbar-item:hover {
+    background-color: #fff;
+    color: #1DA1F2;
+  }
+  

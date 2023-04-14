@@ -1,0 +1,48 @@
+<mat-toolbar class="mat-elevation-z8">
+  <span>
+    <button mat-button routerLink="/">VID</button>  
+    <button mat-button routerLink="/" *ngIf="isLoggedIn"><mat-icon>home</mat-icon></button>  
+  </span>  
+  <span class="fill-remaining-space"></span>
+  <span>
+    <button mat-button routerLink="/login" *ngIf="!isLoggedIn">  
+      <mat-icon>power_settings_new</mat-icon>Login  
+    </button>  
+    <button mat-button *ngIf="isLoggedIn" (click)="logout()">  
+      <mat-icon>exit_to_app</mat-icon>Logout  
+    </button>  
+  </span>  
+</mat-toolbar>
+
+
+
+<!-- <mat-toolbar class="mat-elevation-z8">
+  
+  <span>
+    <button mat-button routerLink="/">VID</button>  
+      <button mat-button routerLink="/" *ngIf="isLoggedIn"><mat-icon>home</mat-icon></button>  
+  </span>  
+  <div fxLayout="row" fxShow="false" fxShow.gt-sm>  
+      <button mat-button routerLink="/login" *ngIf="!isLoggedIn">  
+        <mat-icon>power_settings_new</mat-icon>Login  
+      </button>  
+      <button mat-button *ngIf="isLoggedIn" (click)="logout()">  
+        <mat-icon>exit_to_app</mat-icon>Logout  
+      </button>  
+      
+  </div>
+     
+</mat-toolbar> -->
+
+<!-- <nav class="navbar">
+    <div class="navbar-brand">
+      <img src="logo.png" alt="Logo">
+    </div>
+    <div class="navbar-menu">
+      <div class="navbar-end">
+        <a class="navbar-item" routerLink="/login">Login</a>
+        <a class="navbar-item" routerLink="/signup">Signup</a>
+      </div>
+    </div>
+  </nav>
+   -->
